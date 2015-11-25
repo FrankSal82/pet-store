@@ -45,6 +45,15 @@ a:hover {
 .thumbs{
 	background-color: #bfbfbf;
 }
-.productimage{
-	width:90%;
+
+.thumbs p {
+	font-weight: 500;
+	font-family: 'open sans';
+}
+
+footer {
+	background-color: #1a1a1a;
+}
+.top {
+	margin-top: 20px;
 }
