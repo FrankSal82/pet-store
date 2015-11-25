@@ -54,6 +54,49 @@ a:hover {
 footer {
 	background-color: #1a1a1a;
 }
+address {
+	color:#fff;
+}
 .top {
 	margin-top: 20px;
+}
+i {
+	color:#fff;
+}
+
+
+@media (max-width:1400px) {
+	.footlogo {
+		border-right: solid 1px #fff;
+	}
+}
+@media (min-width:992px) and (max-width:1400px) {
+	.social {
+		border-left:solid 1px #fff;
+	}
+}
+@media (max-width:991px) {
+	.social {
+		text-align: center;
+	}
+	.social span {
+		display:none;
+	}
+	.social a {
+		font-size: 3em;
+		margin:0px 10px 0px 10px;
+	}
+	h3 {
+		font-size: 3em;
+	}
+	.thumbs p {
+		font-size: 2em;
+	}
+	
+
+}
+@media (max-width:767px) {
+	.bottom {
+		top: 0;
+	}
 }
