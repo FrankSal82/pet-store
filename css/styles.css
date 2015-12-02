@@ -47,7 +47,7 @@ a:hover {
 }
 
 .thumbs p {
-	font-weight: 500;
+	font-weight: 300;
 	font-family: 'open sans';
 }
 
@@ -87,7 +87,7 @@ i {
 		margin:0px 10px 0px 10px;
 	}
 	h3 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 	.thumbs p {
 		font-size: 2em;
@@ -98,5 +98,8 @@ i {
 @media (max-width:767px) {
 	.bottom {
 		top: 0;
+	}
+	.nav {
+		float:left!important;
 	}
 }
