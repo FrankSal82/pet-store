@@ -93,7 +93,7 @@ footer .fine-print {
 
 
 
-/*.thumbs{
+.thumbs{
 	background-color: #bfbfbf;
 }
 
@@ -116,7 +116,7 @@ i {
 }
 
 
-@media (max-width:1400px) {
+/*@media (max-width:1400px) {
 	.footlogo {
 		border-right: solid 1px #fff;
 	}
@@ -145,12 +145,20 @@ i {
 	}
 	
 
-}
-@media (max-width:767px) {
-	.bottom {
-		top: 0;
-	}
-	.nav {
-		float:left!important;
-	}
 }*/
+@media (max-width:767px) {
+	.center {
+		float: none;
+		margin: 0 auto;
+	}
+	.bottom {
+		top: 0px;
+	}
+	.social {
+		text-align: center;
+		font-size:45px;
+	}
+	.social i {
+		margin: 20px 10px 0px;
+	}
+}
